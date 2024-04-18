@@ -1,0 +1,14 @@
+В сборке 2862 нет приложенного аллюр отчета, поэтому выбрал другую сборку для анализа, а именно 4299 (https://dev.irpteam.com/tc/buildConfiguration/Build_30_RunVA/58268?buildTab=artifacts#%2Fallure-report.zip)
+1) Then "ResultTable" spreadsheet document is equal
+Отсутствует параметр, содержащий таблицу, с которой требуется сравнить.
+2) And "List" table contains lines
+Отсутствует искомая строка
+3) и 4) Spreadsheet document contains 1 lines, and expected 7 lines
+Актуальная таблица не соответствует эталонной
+5) и 6) Step < Then "1C:Enterprise" window is opened > was expected to cause an exception, and it was executed correctly
+Ожидали, что шаги вызовут исключение, и не вызвали
+
+И еще сборка 4289:
+1) Error calling context method (PredefinedValue):
+Предположу, что скорее всего не был найден предопределенный элемент
+Типы остальных ошибок уже разбирал
